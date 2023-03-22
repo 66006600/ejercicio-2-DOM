@@ -1,9 +1,8 @@
 //your code element.id
-let miId = document.getElementsByTagName("h1").id;
 
-function myfunction () {
-    alert("miId");
-}
+
+let aux = document.getElementsByTagName("h1")[0].id;
+alert(aux);
 
 
 
